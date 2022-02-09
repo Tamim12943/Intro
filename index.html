@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <title>Greetings</title>
+        <link href="/static/styles.css" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Berkshire Swash' rel='stylesheet'>
+<style>
+    a {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: aqua;
+  background-color: transparent;
+  text-decoration: underline;
+}
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius:50%;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+button:hover {
+  background-color: navy;
+  color: white;
+}
+.sty{
+    font-size:25px;
+}
+body{
+background-image:url('/light.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height:100%;
+}
+.ola {
+    font-family: 'Berkshire Swash';
+    padding: 0.5rem 1rem;
+    text-shadow: 1px 1px #FF0000;
+    text-align: center;
+}
+.muri{
+    font-size:34px;
+    font-family: 'Berkshire Swash';
+}
+</style>
+        </head>
+    <body>
+
+      <h1 class = "ola">Welcome</h1>
+      <h1 class = "sty">Click Here To Play</h1>
+<div>
+    <button onclick="document.location='https://ide-61cb9d0f6bdb4094a5c6ffb402a6f0d7-8080.cs50.ws/simon.html'" >Simon Says</button>
+    <button onclick="document.location='https://ide-61cb9d0f6bdb4094a5c6ffb402a6f0d7-8080.cs50.ws/rock.html'" >Rock Paper Scissors</button>
+    <button onclick="document.location='https://ide-61cb9d0f6bdb4094a5c6ffb402a6f0d7-8080.cs50.ws/snake.html'" >Snake Xenzia</button>
+</div>
+      <h3><u><b>Instructions For Simon Says</b></u></h3>
+
+      <p>
+      &#9630; Power Button will initiate the Counter. The game will begin upon pressing Start button.<br>
+      &#9630; The colours will blink one by one and you have to click the buttons according to the matching sequences. If you fail to do so, you will start from where you left off.<br>
+      &#9630; If you opt for Strict mode, you get only one chance. If you fail to match the subsequent sequence, you will be penalized and taken back to the initial round from where you have to start all over again.<br>
+      &#9630; The Counter will keep a track on how many rounds you have passed successfully. If you manage to beat round 20, You Win &#127881;<br>
+
+      </p>
+<h3><u><b>Instructions For Rock Paper Scissors</b></u></h3>
+<p>
+&#10065; You have to pick any one of the three buttons(Rock, Paper or Scissors).<br>
+&#10065; There is no limit as to how much you or the bot can score. Set a limit for yourself and race the bot to victory!<br>
+
+</p>
+<h3><u><b>Instructions For Snake Xenzia</b></u></h3>
+<p>
+&#10064; You are the green block and red one is the apple. You grow by eating the apples.<br>
+&#10064; Game initiates by pressing up, down, right or left arrow key.<br>
+&#10064; Bumping into walls or yourself will result in a loss.<br>
+
+</p>
+<h1 class="muri">Good Luck!</h1>
+    </body>
+
+
+</html>
